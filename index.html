@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<title>Kill Chicken</title>
+</head>
+<body>
+	<img src="img/aircraft1.png" width="0" height="0" id="aircraft1">
+	<img src="img/aircraft2.png" width="0" height="0" id="aircraft2">
+	<img src="img/bg.jpg" width="0" height="0" id="bg">
+	<img src="img/chicken1.png" width="0" height="0" id="chicken1">
+	<img src="img/chicken2.png" width="0" height="0" id="chicken2">
+	<img src="img/chicken3.png" width="0" height="0" id="chicken3">
+	<img src="img/bullet.png" width="0" height="0" id="bullet">
+	<img src="img/heart.png" width="0", height="0" id="heart">
+	<audio src="sound/sound1.m4a" id="sound1"></audio>
+	<audio src="sound/sound2.mp3" id="sound2"></audio>
+	<div><canvas id="myCanvas" onmouseover="playAirCraft()" onmousemove="playAirCraft()" onclick="shoot()"></canvas><button id="playAgain" onclick="playAgain()">playAgain</button></div>
+	<script type="text/javascript" src="aircraft.js"></script>
+	<script type="text/javascript" src="bullet.js"></script>
+	<script type="text/javascript" src="chicken.js"></script>
+	<script type="text/javascript" src="background.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	
+</body>
+</html>
